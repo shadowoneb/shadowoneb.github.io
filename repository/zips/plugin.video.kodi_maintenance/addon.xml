@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.kodi_maintenance"
+       name="Kodi Maintenance"
+       version="1.0.5"
+       provider-name="Ebs">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi Maintenance</summary>
+    <summary lang="heb">תחזוקת קודי</summary>
+    <language>en</language>
+    <description lang="en">Kodi Maintenance</description>
+    <description lang="heb">תחזוקת קודי</description>
+     <platform>all</platform>
+  </extension>
+</addon>

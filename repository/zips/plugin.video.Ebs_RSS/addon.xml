@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Ebs_RSS"
+       name="RSS News viewer"
+       version="1.1.6"
+       provider-name="Ebs">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+    <import addon="script.module.youtube.dl" version="17.310.1a1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">RSS News viewer</summary>
+    <language>en</language>
+    <description lang="en">RSS News viewer</description>
+     <platform>all</platform>
+  </extension>
+</addon>
