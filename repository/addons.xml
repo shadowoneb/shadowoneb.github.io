@@ -295,7 +295,7 @@
      <platform>all</platform>
   </extension>
 </addon>
-<addon id="service.subtitles.All_Subs" name="All Subs" version="1.3.5" provider-name="ebs">
+<addon id="service.subtitles.All_Subs" name="All Subs" version="1.3.6" provider-name="ebs">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
 	<import addon="script.module.requests" version="2.9.1" />
@@ -474,7 +474,7 @@
 </addon>
 <addon id="plugin.video.PastebinPlay"                                                                                                                                    
 	   name="PlayItAll"                      
-	   version="1.5.7"                                                                                                                                        
+	   version="1.5.8"                                                                                                                                        
 	   provider-name="Babylon5">
 	   <requires>
     <import addon="script.module.urlresolver"/>
